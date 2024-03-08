@@ -1,6 +1,8 @@
 # Raspi_Realtime_Kernel
 Raspberry Pi 3B Realtime Kernel Ready. 
 
+After setting up Raspberry Pi Raspbian OS.
+
 Put the file in to the raspberry pi /tmp folder. 
 
 After adding the file,
