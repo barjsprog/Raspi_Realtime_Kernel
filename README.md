@@ -11,7 +11,6 @@ After adding the file,
 /tmp/boot$ sudo cp -rd * /boot/
 /tmp/boot$ cd ../lib
 /tmp/lib$ sudo cp -dr * /lib/
-# thanks for your comment Bart!
 /tmp/lib$ cd ../overlays
 /tmp/overlays$ sudo cp -d * /boot/overlays
 /tmp/overlays$ cd ..
