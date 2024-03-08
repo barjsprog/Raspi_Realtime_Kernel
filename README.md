@@ -5,6 +5,7 @@ Put the file in to the raspberry pi /tmp folder.
 
 After adding the file,
 
+'''
   ~$ cd /tmp
   /tmp$ tar xzf rt-kernel.tgz
   /tmp$ cd boot
@@ -15,6 +16,7 @@ After adding the file,
   /tmp/overlays$ sudo cp -d * /boot/overlays
   /tmp/overlays$ cd ..
   /tmp$ sudo cp -d bcm* /boot/
+'''
 
 Add the following entry to /boot/config.txt:
   ~$ sudo nano /boot/config.txt
