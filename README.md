@@ -5,7 +5,7 @@ Put the file in to the raspberry pi /tmp folder.
 
 After adding the file,
 
-'''
+```
   ~$ cd /tmp
   /tmp$ tar xzf rt-kernel.tgz
   /tmp$ cd boot
@@ -16,18 +16,21 @@ After adding the file,
   /tmp/overlays$ sudo cp -d * /boot/overlays
   /tmp/overlays$ cd ..
   /tmp$ sudo cp -d bcm* /boot/
-'''
+```
 
 Add the following entry to /boot/config.txt:
+```
   ~$ sudo nano /boot/config.txt
   # Add the following option:
   kernel=vmlinuz-4.14.91-rt49-v7+
+```
 
 Reboot the Raspi.
 
 To check: 
+```
   ~$ uname -r
   4.14.91-rt49-v7+
-
+```
 Source: https://lemariva.com/blog/2018/07/raspberry-pi-preempt-rt-patching-tutorial-for-kernel-4-14-y
 
